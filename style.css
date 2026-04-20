@@ -575,15 +575,23 @@ blockquote {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--w15), var(--w04));
+  background-image: url("avatar.png");
+  background-size: cover;
+  background-position: center;
   border: 1px solid var(--w18);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-s);
-  font-style: italic;
-  font-size: 20px;
-  color: var(--w75);
+  cursor: pointer;
+  transition:
+    transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+    border-color 0.3s ease;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.gwen-avatar:hover {
+  transform: scale(1.1);
+  border-color: var(--w40);
 }
 .id-name {
   font-size: 13px;

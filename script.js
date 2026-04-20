@@ -166,6 +166,36 @@ class Localizer {
 }
 
 /**
+ * AvatarZoom - Enlarge avatar on click.
+ */
+class AvatarZoom {
+  constructor() {
+    this._overlay = document.getElementById("avatar-zoom-overlay");
+    this._avatars = document.querySelectorAll(".gwen-avatar");
+  }
+  init() {
+    if (!this._overlay || this._avatars.length === 0) return this;
+    this._avatars.forEach((av) => {
+      av.addEventListener("click", () => this.open());
+    });
+    this._overlay.addEventListener("click", () => this.close());
+
+    // ESC key
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && this._overlay.classList.contains("is-open"))
+        this.close();
+    });
+    return this;
+  }
+  open() {
+    this._overlay.classList.add("is-open");
+  }
+  close() {
+    this._overlay.classList.remove("is-open");
+  }
+}
+
+/**
  * App Bootstrap - Compose and initialise all modules.
  */
 (function bootstrap() {
@@ -175,4 +205,5 @@ class Localizer {
   new ThemeToggle("theme-toggle").init();
   new AboutModal().init();
   new Localizer().init();
+  new AvatarZoom().init();
 })();
