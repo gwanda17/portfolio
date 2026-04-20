@@ -12,7 +12,7 @@ const TRANSLATIONS = {
     "srv-3": "UI/UX Dynamics",
     "quote-text":
       "In the pursuit of perfect code, sleep is a luxury. We deliver when others rest.",
-    "quote-author": "Pejuangdeadline Manifesto",
+    "quote-author": "Pejuangdeadline.it",
     "archive-title": "// Work Archive",
     "stat-commits": "Commits / week",
     "stat-retention": "Project completion",
@@ -46,7 +46,7 @@ const TRANSLATIONS = {
     "srv-3": "Dinamika UI/UX",
     "quote-text":
       "Demi baris kode yang sempurna, waktu tidur adalah kemewahan. Kami bekerja di saat yang lain terlelap.",
-    "quote-author": "Manifesto Pejuangdeadline",
+    "quote-author": "Pejuangdeadline.it",
     "archive-title": "// Arsip Project",
     "stat-commits": "Commit / minggu",
     "stat-retention": "Penyelesaian project",
