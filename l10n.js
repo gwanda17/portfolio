@@ -57,7 +57,7 @@ const TRANSLATIONS = {
     "about-p1":
       "Saya membangun aplikasi web dan pengalaman digital yang cepat dengan perhatian khusus pada detail, performa, dan estetika.",
     "about-p2":
-      "Gwen via <strong>Pejuangdeadline.it</strong>, selalu mengejar target dan hasil yang konsisten. Saya terbiasa di bawah tekanan, namun tetap realistis—project berskala besar butuh timeline yang matang, bukan keajaiban dalam semalam.",
+      "<strong>Pejuangdeadline.it</strong> (Gwen), selalu mengejar target dan hasil yang konsisten. Saya terbiasa di bawah tekanan, namun tetap realistis—project berskala besar butuh timeline yang matang, bukan keajaiban dalam semalam.",
     "sop-title": "// Aturan & Cara Kerja (SOP)",
     "sop-lt": "Jadwal Pengerjaan:",
     "sop-lt-desc":
